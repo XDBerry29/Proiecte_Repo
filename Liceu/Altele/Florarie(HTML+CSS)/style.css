@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #feeafa;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 90px;
+    color: #aca3b3;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+header{
+    background-color: #feeafa;
+}
+
+.cos{
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    background-color: #cbc0d3;
+    font-size: 30px;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.cos:hover{
+    background-color: #857292;
+}   
+
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #717d90;
+    height:55px;
+    z-index: 3;
+}
+
+nav li{
+    display: inline-block;
+    padding:15px 15px;
+    border-right: 1px solid white;
+}
+
+nav li:hover{
+    background-color: #475161;
+}
+
+nav li a{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    text-align: center; 
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+div .produs{
+    background-color: #efd3d7;
+    height: 480px;
+    width: 400px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d8e2dc;
+    border-radius: 15px;
+    margin: 56px 30px;
+    overflow: hidden;
+}
+
+.produs img{
+    width: 100%;
+    height: auto;
+}
+
+div .produs:hover{
+    background-color: #bda7aa;
+    border-width: 2px;
+    border-color: #525855;
+    
+}
+
+.produs a{
+    text-decoration: none;
+}
+
+.produs h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #6b6e7e;
+    font-weight: 540;
+    text-align: center;
+    font-size: 27px;
+}
+
+.produs strong{
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    color: #424955;
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 23px;
+}
+.produse{
+    margin: 30px 0px 70px 0px;
+}
+
+.aboutus{
+    background-color: #8e9aaf;
+    padding-top: 40px;
+}
+
+.aboutus img{
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    overflow: hidden;
+    border-radius: 6px;
+    margin: 20px 40px;
+   
+}
+.descriere {
+    position: absolute;
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+}
+
+.descriere h2{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.descriere p{
+    font-size: 30px;
+    text-align: left;
+}
+
+footer{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: #6b6e7e;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    border-top: 10px solid #dee2ff;
+    text-align: center;
+}
+
+

@@ -1,0 +1,509 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: #000000;
+    color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin:8px 0px;
+    margin-left: 42%;
+    font-size:100px;
+    display: inline-block; 
+ 
+}
+
+
+.cart p{
+    text-align: center;
+    font-weight: 500;
+    padding: 0px 45px;
+    margin-top: 6px;
+}
+
+div.cart{
+    float: right;
+    font-size:27px;
+    height: 45px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius:30px;
+    margin-top: 40px;
+    margin-right: 70px;
+}
+
+.cart:hover
+{
+    background-color: #c5c5c5;
+}
+
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    height:55px;
+    z-index: 3;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-weight: 700;
+}
+
+nav li{
+    display: inline-block;
+    border-right: 1px solid white;
+}
+
+nav li:hover{
+    background-color: #292929;
+}
+
+nav li a{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    text-align: center; 
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;
+    padding:15px 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.main{
+    height:950px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.prim{
+    grid-row: span 2;
+    background-position: bottom;
+    transition: background-image 500ms ease-in-out;
+    transition-delay:50ms;
+    background-image:url("./Sorce/tramzitie11.webp");
+    
+}
+.prim div{
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms ease-out;
+    transition-delay:0s, 500ms;
+    margin-top:280px;
+    margin-left:30px;
+    font-size: 20px;
+}
+
+.prim a{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms ease-out;
+    transition-delay:0s, 500ms;
+    color:#000000;
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right:350px;
+    margin-top:20px;
+    margin-left:30px;
+    text-decoration: none;
+}
+
+
+div.prim:hover{
+    
+    background-image:url("./Sorce/tranzitie12.webp");
+}
+
+div.prim:hover > div{
+    visibility: visible;
+    opacity: 1;
+}
+div.prim:hover > a{
+    visibility: visible;
+    opacity: 1;
+}
+
+.prim a:hover{
+    background-color: #b8b8b8;
+}
+
+div.doi{
+    height: 475px;
+    background-position: bottom;
+    transition: background-image 500ms ease-in-out;
+    transition-delay: 50ms;
+    background-image:url("./Sorce/tranzitie21.jpg");
+}
+
+.doi div{
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms ease-out;
+    transition-delay:0s, 500ms; 
+    margin-top:100px; 
+    margin-left:40px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.doi a{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms ease-out;
+    transition-delay:0s, 500ms;
+    color:#000000;
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right:300px;
+    margin-top:15px;
+    margin-left:40px;
+    text-decoration: none;
+}
+
+div.doi:hover{
+    
+    background-image:url("./Sorce/tranzitie22.jpg");
+}
+
+div.doi:hover > div{
+    visibility: visible;
+    opacity: 1;
+}
+
+div.doi:hover > a{
+    visibility: visible;
+    opacity: 1;
+}
+
+.doi a:hover{
+    background-color: #b8b8b8;
+}
+
+div.trei{
+    height: 475px;
+    background-position: bottom;
+    transition: background-image 500ms ease-in-out;
+    transition-delay: 50ms;
+    background-image:url("./Sorce/tranzitie31.jpg");
+}
+
+.trei div{
+    display: inline-block;
+    visibility: hidden;   
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms ease-out;
+    transition-delay:0s, 500ms;
+    margin-top:100px; 
+    margin-left:40px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.trei a{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms ease-out;
+    transition-delay:0s, 500ms;
+    color:#000000;
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right:300px;
+    margin-top:15px;
+    margin-left:40px;
+    text-decoration: none;
+}
+
+div.trei:hover{
+    
+    background-image:url("./Sorce/tranzitie32.jpg");
+}
+
+div.trei:hover > div{
+    visibility: visible;
+    opacity: 1;
+}
+div.trei:hover > a{
+    visibility: visible;
+    opacity: 1;
+}
+
+.trei a:hover{
+    background-color: #b8b8b8;
+}
+
+.products{
+    margin: 30px 20px 100px 120px;
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products a{
+    text-decoration: none;
+}
+
+div.product{
+    height: 300px;
+    color: #FFFFFF;
+    background-color: #000000;
+    width: 700px;
+    margin: 40px 40px;
+    border: 3px solid white;
+    display:grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: max-content max-content 1fr;
+    transition: background-color 600ms, color 300ms linear;
+}
+.product h2{
+    display: inline-block;
+    font-size: 27px;
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+.product p{
+    display: inline-block;
+    margin-left: 10px;
+}
+.product strong{
+    display: inline-block;
+    font-size: 20px;
+    align-self: end;
+    justify-self: end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.product img{
+    grid-row: span 3;
+    height: 100%;
+    display: inline-block;
+}
+
+div.product:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.aboutus{
+    padding:70px 0px;
+}
+
+.aboutus h3{
+    text-transform: uppercase;
+    font-size: 70px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+
+}
+
+.who {
+    color:#000000;
+    background-color: #FFFFFF;
+    height: 115px;
+    transition: height 1s ease;
+    transition-delay: 200ms;
+}
+
+.who div{
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms ease-out;
+    transition-delay: 0s, 800ms;
+}
+
+.who img{
+    margin: 10px 0px 50px 30px;
+    object-fit: none;
+    height: 0px;
+    transition: height 800ms ease-out;
+    transition-delay: 100ms;
+}
+.who p{
+    margin: 10px 100px 30px 30px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4em;
+    overflow: scroll;
+    height: 0px;
+    transition: height 800ms ease-out;
+    transition-delay: 100ms;
+}
+
+.who:hover{
+    height:825px;
+}
+
+.who:hover >div{
+    visibility: visible;
+    opacity: 1;
+}
+.who:hover >div img{
+    height: 650px;
+}
+.who:hover >div p{
+    height: 650px;
+}
+
+.what {
+    color:#FFFFFF;
+    background-color: #000000;
+    height: 115px;
+    transition: height 1s ease;
+    transition-delay: 200ms;
+}
+
+.what div{
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms ease-out;
+    transition-delay: 0s, 800ms;
+}
+
+.what img{
+    margin: 10px 0px 50px 30px;
+    object-fit: none;
+    height: 0px;
+    transition: height 800ms ease-out;
+    transition-delay: 100ms;
+}
+
+.what p{
+    margin: 10px 100px 30px 30px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4em;
+    overflow: scroll;
+    height: 0px;
+    transition: height 800ms ease-out;
+    transition-delay: 100ms;
+}
+
+.what:hover{
+    height: 825px;
+}
+
+.what:hover >div{
+    visibility: visible;
+    opacity: 1;
+}
+
+.what:hover >div img{
+    height: 650px;
+}
+.what:hover >div p{
+    height: 650px;
+}
+
+.where {
+    color:#000000;
+    background-color: #FFFFFF;
+    height: 115px;
+    transition: height 1s ease;
+    transition-delay: 200ms;
+}
+
+.where div{
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms ease-out;
+    transition-delay: 0s, 800ms;
+}
+
+.where img{
+    margin: 10px 0px 50px 30px;
+    object-fit: none;
+    height: 0px;
+    transition: height 800ms ease-out;
+    transition-delay: 100ms;
+}
+.where p{
+    margin: 10px 100px 30px 30px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4em;
+    overflow: scroll;
+    height: 0px;
+    transition: height 800ms ease-out;
+    transition-delay: 100ms;
+}
+.where:hover{
+    height:825px;
+}
+
+.where:hover >div{
+    visibility: visible;
+    height: max-content;
+    opacity: 1;
+}
+
+.where:hover >div img{
+    height: 650px;
+}
+.where:hover >div p{
+    height: 650px;
+}
+
+p::-webkit-scrollbar {
+    display: none;
+  }
+
+footer{
+    margin-top:50px;
+    height:250px;
+    display:flex;
+    border-top: #FFFFFF solid 3px;
+}
+
+footer .cnt{
+    font-size: 23px;
+    font-weight: 500;
+    margin-top:50px;
+    margin-left: 40px;  
+}
+
+footer .cnt ul{
+    list-style: none;
+}
+
+footer .followus{
+    margin-top:50px;    
+    position: absolute;
+    left:75%;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+footer .followus img{
+    height: 60px;
+    margin-right: 5px;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="492.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testg.controller.StudentController">
+    <children>
+        <SplitPane dividerPositions="0.676470588235294" layoutX="273.0" layoutY="163.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                    <children>
+                        <ListView fx:id="listView" layoutX="147.0" layoutY="93.0" prefHeight="328.0" prefWidth="597.6" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane fx:id="anchorPaneRaspunsuri" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                    <children>
+                        <ButtonBar fx:id="buttonBar" layoutX="14.0" layoutY="25.0" prefHeight="40.0" prefWidth="581.0">
+                            <buttons>
+                                <RadioButton fx:id="v1Button" mnemonicParsing="false" text="RadioButton" />
+                                <RadioButton fx:id="v2Button" mnemonicParsing="false" text="RadioButton" />
+                                <RadioButton fx:id="v3Button" minWidth="24.0" mnemonicParsing="false" prefHeight="17.0" text="RadioButton" />
+                            </buttons>
+                        </ButtonBar>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>
